@@ -5,10 +5,18 @@
     line-height: 150%;
 }
 
-#page {
+body {
     background-image: url("images/background-image.jpg");
+    background-size: cover;
+}
+
+#page {
     width: 800px;
-    height: 1440px;
+    padding: 24px;
+    background-color: #F0E8C2;
+    border-radius: 24px;
+    margin: 48px auto;
+    box-sizing: border-box;
 }
 
 #about {
@@ -17,9 +25,4 @@
 
 #about > h1 {
     font-size: 40px;
-}
-
-#main-image {
-    width: 100%;
-    height: 400px;
 }
